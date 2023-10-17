@@ -3,12 +3,12 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
-const Heading = () => {
+const Head = () => {
   return (
     <div className="max-w-3xl space-y-4">
       <h1 className="text-3xl sm:text-5xl md:6xl">
         Suas ideias. Documentos & projetos. Unificados. Bem vindo ao{" "}
-        <strong>Jotion</strong>.
+        <span className="font-bold underline">Jotion</span>.
       </h1>
       <h2 className="text-base sm:text-sm md:text-2xl font-medium">
         O Jotion é um sistema de gerenciamento de projetos e documentos que
@@ -22,4 +22,4 @@ const Heading = () => {
   );
 };
 
-export default Heading;
+export default Head;
